@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A79590A16BB1D51003E8089 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79590916BB1D51003E8089 /* red.png */; };
+		8A79752316BAAB0D00AD1F9E /* e1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751716BAAB0D00AD1F9E /* e1.png */; };
+		8A79752416BAAB0D00AD1F9E /* e2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751816BAAB0D00AD1F9E /* e2.png */; };
+		8A79752516BAAB0D00AD1F9E /* e3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751916BAAB0D00AD1F9E /* e3.png */; };
+		8A79752616BAAB0D00AD1F9E /* e4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751A16BAAB0D00AD1F9E /* e4.png */; };
+		8A79752716BAAB0D00AD1F9E /* e5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751B16BAAB0D00AD1F9E /* e5.png */; };
+		8A79752816BAAB0D00AD1F9E /* e6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751C16BAAB0D00AD1F9E /* e6.png */; };
+		8A79752916BAAB0D00AD1F9E /* e7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751D16BAAB0D00AD1F9E /* e7.png */; };
+		8A79752A16BAAB0D00AD1F9E /* e8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751E16BAAB0D00AD1F9E /* e8.png */; };
+		8A79752B16BAAB0D00AD1F9E /* e9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79751F16BAAB0D00AD1F9E /* e9.png */; };
+		8A79752C16BAAB0D00AD1F9E /* e10.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79752016BAAB0D00AD1F9E /* e10.png */; };
+		8A79752D16BAAB0D00AD1F9E /* e11.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79752116BAAB0D00AD1F9E /* e11.png */; };
+		8A79752E16BAAB0D00AD1F9E /* e12.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A79752216BAAB0D00AD1F9E /* e12.png */; };
+		8A7A639316AA245F006B3359 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7A639216AA245F006B3359 /* money.png */; };
+		8A7A639A16AC568B006B3359 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7A639916AC568A006B3359 /* green.png */; };
+		8A7A639C16AC5694006B3359 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7A639B16AC5694006B3359 /* orange.png */; };
+		8A7A639E16AC5699006B3359 /* bomb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7A639D16AC5699006B3359 /* bomb.jpg */; };
+		8A80E30316BC95BB00EE58D9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A80E30216BC95BB00EE58D9 /* AudioToolbox.framework */; };
+		8ACB257C16820E8300ACAB78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB257B16820E8300ACAB78 /* UIKit.framework */; };
+		8ACB257E16820E8300ACAB78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB257D16820E8300ACAB78 /* Foundation.framework */; };
+		8ACB258016820E8300ACAB78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB257F16820E8300ACAB78 /* CoreGraphics.framework */; };
+		8ACB258616820E8300ACAB78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB258416820E8300ACAB78 /* InfoPlist.strings */; };
+		8ACB258816820E8300ACAB78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB258716820E8300ACAB78 /* main.m */; };
+		8ACB258C16820E8300ACAB78 /* clescoinsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB258B16820E8300ACAB78 /* clescoinsAppDelegate.m */; };
+		8ACB258E16820E8300ACAB78 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB258D16820E8300ACAB78 /* Default.png */; };
+		8ACB259016820E8300ACAB78 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB258F16820E8300ACAB78 /* Default@2x.png */; };
+		8ACB259216820E8300ACAB78 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB259116820E8300ACAB78 /* Default-568h@2x.png */; };
+		8ACB259516820E8300ACAB78 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB259316820E8300ACAB78 /* MainStoryboard.storyboard */; };
+		8ACB259816820E8300ACAB78 /* clescoinsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB259716820E8300ACAB78 /* clescoinsViewController.m */; };
+		8ACB25A016820E8300ACAB78 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB259F16820E8300ACAB78 /* SenTestingKit.framework */; };
+		8ACB25A116820E8300ACAB78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB257B16820E8300ACAB78 /* UIKit.framework */; };
+		8ACB25A216820E8300ACAB78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACB257D16820E8300ACAB78 /* Foundation.framework */; };
+		8ACB25AA16820E8400ACAB78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8ACB25A816820E8400ACAB78 /* InfoPlist.strings */; };
+		8ACB25AD16820E8400ACAB78 /* colescoinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB25AC16820E8400ACAB78 /* colescoinsTests.m */; };
+		8AFAB2BA16B95285003B33BC /* bomb2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AFAB2B916B95285003B33BC /* bomb2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ACB25A316820E8300ACAB78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ACB256E16820E8300ACAB78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ACB257616820E8300ACAB78;
+			remoteInfo = colescoins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A79590916BB1D51003E8089 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../red.png; sourceTree = "<group>"; };
+		8A79751716BAAB0D00AD1F9E /* e1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e1.png; path = ../avisRealSub/pics/e1.png; sourceTree = "<group>"; };
+		8A79751816BAAB0D00AD1F9E /* e2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e2.png; path = ../avisRealSub/pics/e2.png; sourceTree = "<group>"; };
+		8A79751916BAAB0D00AD1F9E /* e3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e3.png; path = ../avisRealSub/pics/e3.png; sourceTree = "<group>"; };
+		8A79751A16BAAB0D00AD1F9E /* e4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e4.png; path = ../avisRealSub/pics/e4.png; sourceTree = "<group>"; };
+		8A79751B16BAAB0D00AD1F9E /* e5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e5.png; path = ../avisRealSub/pics/e5.png; sourceTree = "<group>"; };
+		8A79751C16BAAB0D00AD1F9E /* e6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e6.png; path = ../avisRealSub/pics/e6.png; sourceTree = "<group>"; };
+		8A79751D16BAAB0D00AD1F9E /* e7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e7.png; path = ../avisRealSub/pics/e7.png; sourceTree = "<group>"; };
+		8A79751E16BAAB0D00AD1F9E /* e8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e8.png; path = ../avisRealSub/pics/e8.png; sourceTree = "<group>"; };
+		8A79751F16BAAB0D00AD1F9E /* e9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e9.png; path = ../avisRealSub/pics/e9.png; sourceTree = "<group>"; };
+		8A79752016BAAB0D00AD1F9E /* e10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e10.png; path = ../avisRealSub/pics/e10.png; sourceTree = "<group>"; };
+		8A79752116BAAB0D00AD1F9E /* e11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e11.png; path = ../avisRealSub/pics/e11.png; sourceTree = "<group>"; };
+		8A79752216BAAB0D00AD1F9E /* e12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = e12.png; path = ../avisRealSub/pics/e12.png; sourceTree = "<group>"; };
+		8A7A639216AA245F006B3359 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = money.png; path = ../../money.png; sourceTree = "<group>"; };
+		8A7A639916AC568A006B3359 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../green.png; sourceTree = "<group>"; };
+		8A7A639B16AC5694006B3359 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = ../../orange.png; sourceTree = "<group>"; };
+		8A7A639D16AC5699006B3359 /* bomb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bomb.jpg; path = ../../bomb.jpg; sourceTree = "<group>"; };
+		8A80E30216BC95BB00EE58D9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8ACB257716820E8300ACAB78 /* colescoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colescoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACB257B16820E8300ACAB78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ACB257D16820E8300ACAB78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ACB257F16820E8300ACAB78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ACB258316820E8300ACAB78 /* colescoins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colescoins-Info.plist"; sourceTree = "<group>"; };
+		8ACB258516820E8300ACAB78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ACB258716820E8300ACAB78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ACB258916820E8300ACAB78 /* colescoins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colescoins-Prefix.pch"; sourceTree = "<group>"; };
+		8ACB258A16820E8300ACAB78 /* clescoinsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clescoinsAppDelegate.h; sourceTree = "<group>"; };
+		8ACB258B16820E8300ACAB78 /* clescoinsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clescoinsAppDelegate.m; sourceTree = "<group>"; };
+		8ACB258D16820E8300ACAB78 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8ACB258F16820E8300ACAB78 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8ACB259116820E8300ACAB78 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8ACB259416820E8300ACAB78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8ACB259616820E8300ACAB78 /* clescoinsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clescoinsViewController.h; sourceTree = "<group>"; };
+		8ACB259716820E8300ACAB78 /* clescoinsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clescoinsViewController.m; sourceTree = "<group>"; };
+		8ACB259E16820E8300ACAB78 /* colescoinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colescoinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACB259F16820E8300ACAB78 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8ACB25A716820E8400ACAB78 /* colescoinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colescoinsTests-Info.plist"; sourceTree = "<group>"; };
+		8ACB25A916820E8400ACAB78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8ACB25AB16820E8400ACAB78 /* colescoinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = colescoinsTests.h; sourceTree = "<group>"; };
+		8ACB25AC16820E8400ACAB78 /* colescoinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colescoinsTests.m; sourceTree = "<group>"; };
+		8AFAB2B916B95285003B33BC /* bomb2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bomb2.png; path = ../../bomb2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ACB257416820E8300ACAB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A80E30316BC95BB00EE58D9 /* AudioToolbox.framework in Frameworks */,
+				8ACB257C16820E8300ACAB78 /* UIKit.framework in Frameworks */,
+				8ACB257E16820E8300ACAB78 /* Foundation.framework in Frameworks */,
+				8ACB258016820E8300ACAB78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB259A16820E8300ACAB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB25A016820E8300ACAB78 /* SenTestingKit.framework in Frameworks */,
+				8ACB25A116820E8300ACAB78 /* UIKit.framework in Frameworks */,
+				8ACB25A216820E8300ACAB78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ACB256C16820E8300ACAB78 = {
+			isa = PBXGroup;
+			children = (
+				8A80E30216BC95BB00EE58D9 /* AudioToolbox.framework */,
+				8A79590916BB1D51003E8089 /* red.png */,
+				8A7A639B16AC5694006B3359 /* orange.png */,
+				8A7A639D16AC5699006B3359 /* bomb.jpg */,
+				8A7A639916AC568A006B3359 /* green.png */,
+				8AFAB2B916B95285003B33BC /* bomb2.png */,
+				8A79751716BAAB0D00AD1F9E /* e1.png */,
+				8A79751816BAAB0D00AD1F9E /* e2.png */,
+				8A79751916BAAB0D00AD1F9E /* e3.png */,
+				8A79751A16BAAB0D00AD1F9E /* e4.png */,
+				8A79751B16BAAB0D00AD1F9E /* e5.png */,
+				8A79751C16BAAB0D00AD1F9E /* e6.png */,
+				8A79751D16BAAB0D00AD1F9E /* e7.png */,
+				8A79751E16BAAB0D00AD1F9E /* e8.png */,
+				8A79751F16BAAB0D00AD1F9E /* e9.png */,
+				8A79752016BAAB0D00AD1F9E /* e10.png */,
+				8A79752116BAAB0D00AD1F9E /* e11.png */,
+				8A79752216BAAB0D00AD1F9E /* e12.png */,
+				8A7A639216AA245F006B3359 /* money.png */,
+				8ACB258116820E8300ACAB78 /* colescoins */,
+				8ACB25A516820E8300ACAB78 /* colescoinsTests */,
+				8ACB257A16820E8300ACAB78 /* Frameworks */,
+				8ACB257816820E8300ACAB78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ACB257816820E8300ACAB78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB257716820E8300ACAB78 /* colescoins.app */,
+				8ACB259E16820E8300ACAB78 /* colescoinsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ACB257A16820E8300ACAB78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB257B16820E8300ACAB78 /* UIKit.framework */,
+				8ACB257D16820E8300ACAB78 /* Foundation.framework */,
+				8ACB257F16820E8300ACAB78 /* CoreGraphics.framework */,
+				8ACB259F16820E8300ACAB78 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ACB258116820E8300ACAB78 /* colescoins */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB258A16820E8300ACAB78 /* clescoinsAppDelegate.h */,
+				8ACB258B16820E8300ACAB78 /* clescoinsAppDelegate.m */,
+				8ACB259316820E8300ACAB78 /* MainStoryboard.storyboard */,
+				8ACB259616820E8300ACAB78 /* clescoinsViewController.h */,
+				8ACB259716820E8300ACAB78 /* clescoinsViewController.m */,
+				8ACB258216820E8300ACAB78 /* Supporting Files */,
+			);
+			path = colescoins;
+			sourceTree = "<group>";
+		};
+		8ACB258216820E8300ACAB78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB258316820E8300ACAB78 /* colescoins-Info.plist */,
+				8ACB258416820E8300ACAB78 /* InfoPlist.strings */,
+				8ACB258716820E8300ACAB78 /* main.m */,
+				8ACB258916820E8300ACAB78 /* colescoins-Prefix.pch */,
+				8ACB258D16820E8300ACAB78 /* Default.png */,
+				8ACB258F16820E8300ACAB78 /* Default@2x.png */,
+				8ACB259116820E8300ACAB78 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ACB25A516820E8300ACAB78 /* colescoinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB25AB16820E8400ACAB78 /* colescoinsTests.h */,
+				8ACB25AC16820E8400ACAB78 /* colescoinsTests.m */,
+				8ACB25A616820E8400ACAB78 /* Supporting Files */,
+			);
+			path = colescoinsTests;
+			sourceTree = "<group>";
+		};
+		8ACB25A616820E8400ACAB78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB25A716820E8400ACAB78 /* colescoinsTests-Info.plist */,
+				8ACB25A816820E8400ACAB78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ACB257616820E8300ACAB78 /* colescoins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACB25B016820E8400ACAB78 /* Build configuration list for PBXNativeTarget "colescoins" */;
+			buildPhases = (
+				8ACB257316820E8300ACAB78 /* Sources */,
+				8ACB257416820E8300ACAB78 /* Frameworks */,
+				8ACB257516820E8300ACAB78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colescoins;
+			productName = colescoins;
+			productReference = 8ACB257716820E8300ACAB78 /* colescoins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ACB259D16820E8300ACAB78 /* colescoinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACB25B316820E8400ACAB78 /* Build configuration list for PBXNativeTarget "colescoinsTests" */;
+			buildPhases = (
+				8ACB259916820E8300ACAB78 /* Sources */,
+				8ACB259A16820E8300ACAB78 /* Frameworks */,
+				8ACB259B16820E8300ACAB78 /* Resources */,
+				8ACB259C16820E8300ACAB78 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ACB25A416820E8300ACAB78 /* PBXTargetDependency */,
+			);
+			name = colescoinsTests;
+			productName = colescoinsTests;
+			productReference = 8ACB259E16820E8300ACAB78 /* colescoinsTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ACB256E16820E8300ACAB78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = clescoins;
+				LastTestingUpgradeCheck = 0720;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Steven Grutman";
+			};
+			buildConfigurationList = 8ACB257116820E8300ACAB78 /* Build configuration list for PBXProject "colescoins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8ACB256C16820E8300ACAB78;
+			productRefGroup = 8ACB257816820E8300ACAB78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ACB257616820E8300ACAB78 /* colescoins */,
+				8ACB259D16820E8300ACAB78 /* colescoinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ACB257516820E8300ACAB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB258616820E8300ACAB78 /* InfoPlist.strings in Resources */,
+				8ACB258E16820E8300ACAB78 /* Default.png in Resources */,
+				8ACB259016820E8300ACAB78 /* Default@2x.png in Resources */,
+				8ACB259216820E8300ACAB78 /* Default-568h@2x.png in Resources */,
+				8ACB259516820E8300ACAB78 /* MainStoryboard.storyboard in Resources */,
+				8A7A639316AA245F006B3359 /* money.png in Resources */,
+				8A7A639A16AC568B006B3359 /* green.png in Resources */,
+				8A7A639C16AC5694006B3359 /* orange.png in Resources */,
+				8A7A639E16AC5699006B3359 /* bomb.jpg in Resources */,
+				8AFAB2BA16B95285003B33BC /* bomb2.png in Resources */,
+				8A79752316BAAB0D00AD1F9E /* e1.png in Resources */,
+				8A79752416BAAB0D00AD1F9E /* e2.png in Resources */,
+				8A79752516BAAB0D00AD1F9E /* e3.png in Resources */,
+				8A79752616BAAB0D00AD1F9E /* e4.png in Resources */,
+				8A79752716BAAB0D00AD1F9E /* e5.png in Resources */,
+				8A79752816BAAB0D00AD1F9E /* e6.png in Resources */,
+				8A79752916BAAB0D00AD1F9E /* e7.png in Resources */,
+				8A79752A16BAAB0D00AD1F9E /* e8.png in Resources */,
+				8A79752B16BAAB0D00AD1F9E /* e9.png in Resources */,
+				8A79752C16BAAB0D00AD1F9E /* e10.png in Resources */,
+				8A79752D16BAAB0D00AD1F9E /* e11.png in Resources */,
+				8A79752E16BAAB0D00AD1F9E /* e12.png in Resources */,
+				8A79590A16BB1D51003E8089 /* red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB259B16820E8300ACAB78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB25AA16820E8400ACAB78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ACB259C16820E8300ACAB78 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ACB257316820E8300ACAB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB258816820E8300ACAB78 /* main.m in Sources */,
+				8ACB258C16820E8300ACAB78 /* clescoinsAppDelegate.m in Sources */,
+				8ACB259816820E8300ACAB78 /* clescoinsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB259916820E8300ACAB78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB25AD16820E8400ACAB78 /* colescoinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ACB25A416820E8300ACAB78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ACB257616820E8300ACAB78 /* colescoins */;
+			targetProxy = 8ACB25A316820E8300ACAB78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ACB258416820E8300ACAB78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACB258516820E8300ACAB78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8ACB259316820E8300ACAB78 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACB259416820E8300ACAB78 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8ACB25A816820E8400ACAB78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ACB25A916820E8400ACAB78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ACB25AE16820E8400ACAB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ACB25AF16820E8400ACAB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ACB25B116820E8400ACAB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colescoins/colescoins-Prefix.pch";
+				INFOPLIST_FILE = "colescoins/colescoins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ACB25B216820E8400ACAB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colescoins/colescoins-Prefix.pch";
+				INFOPLIST_FILE = "colescoins/colescoins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8ACB25B416820E8400ACAB78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colescoins.app/colescoins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colescoins/colescoins-Prefix.pch";
+				INFOPLIST_FILE = "colescoinsTests/colescoinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8ACB25B516820E8400ACAB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colescoins.app/colescoins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colescoins/colescoins-Prefix.pch";
+				INFOPLIST_FILE = "colescoinsTests/colescoinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ACB257116820E8300ACAB78 /* Build configuration list for PBXProject "colescoins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACB25AE16820E8400ACAB78 /* Debug */,
+				8ACB25AF16820E8400ACAB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACB25B016820E8400ACAB78 /* Build configuration list for PBXNativeTarget "colescoins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACB25B116820E8400ACAB78 /* Debug */,
+				8ACB25B216820E8400ACAB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACB25B316820E8400ACAB78 /* Build configuration list for PBXNativeTarget "colescoinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACB25B416820E8400ACAB78 /* Debug */,
+				8ACB25B516820E8400ACAB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ACB256E16820E8300ACAB78 /* Project object */;
+}
