@@ -1,0 +1,956 @@
+/* Localized versions of Info.plist keys */
+
+/*
+
+ while (check <= 8) {
+ checkB = [box1 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box1 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2 && checked == 0) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box2 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box2 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2 && checked == 0) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box3 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box3 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2 && checked == 0) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box4 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box4 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box5 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box5 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box6 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box6 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box7 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box7 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box8 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box8 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [box9 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [box9 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row1 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row1 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row2 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row2 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row3 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row3 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row4 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row4 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row5 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row5 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row6 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row6 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row7 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row7 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row8 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row8 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [row9 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [row9 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column1 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column1 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column2 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column2 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column3 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column3 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column4 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column4 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column5 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column5 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column6 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column6 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column7 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column7 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column8 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column8 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <= 8) {
+ checkB = [column9 objectAtIndex:check];
+ check2 = 0;
+ while (check2 <= 8) {
+ checkB2 = [column9 objectAtIndex:check2];
+ if ([checkB.titleLabel.text isEqualToString:checkB2.titleLabel.text] && check != check2) {
+ if ([checkB2.titleLabel.text isEqualToString:@"."]) {
+ 
+ }else{
+ [checkB setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ [checkB setTitle:@"." forState:UIControlStateNormal];
+ counter--;
+ }
+ }
+ check2++;
+ }
+ 
+ /*)  gg = 0;
+ while (gg <= 80) {
+ go = [buttons objectAtIndex:gg];
+ if ([go.titleLabel.text isEqualToString:@"."]) {
+ [go setTitleColor:[UIColor colorWithRed:0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ }
+ }*)/
+check++;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ gg = 0;
+ check = 0;
+ check2 = 0;
+ check3 = 0;
+ check4 = 0;
+ rand = 1;
+ check4 = 0;
+ 
+ while (check3 <= 80){
+ NSLog(@"%d", check3);
+ rand = (random() % 9) + 1;
+ counter++;
+ check2 = 0;
+ go = [buttons objectAtIndex:check3];
+ 
+ [go setTitle:[NSString stringWithFormat:@"%d", rand] forState:UIControlStateNormal];
+ [go setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+ 
+ 
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box2 objectAtIndex:check];
+ if (check4 >=9 && check4 <=17 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box3 objectAtIndex:check];
+ if (check4 >=18 && check4 <=26 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box4 objectAtIndex:check];
+ if (check4 >=27 && check4 <=35 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box5 objectAtIndex:check];
+ if (check4 >=36 && check4 <=44 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box6 objectAtIndex:check];
+ if (check4 >=45 && check4 <=53 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box7 objectAtIndex:check];
+ if (check4 >=54 && check4 <=62 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box8 objectAtIndex:check];
+ if (check4 >=63 && check4 <=71 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [box9 objectAtIndex:check];
+ if (check4 >=72 && check4 <=80 && go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ check++;
+ }
+ 
+ 
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row1 objectAtIndex:check];
+ if (check4 == 0 || check4 == 1 || check4 == 2 || check4 == 9 || check4 == 10 || check4 == 11 || check4 == 18 || check4 == 19 || check4 == 20){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row2 objectAtIndex:check];
+ if (check4 == 3 || check4 == 4 || check4 == 5 || check4 == 12 || check4 == 13 || check4 == 14 || check4 == 21 || check4 == 22 || check4 == 23){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row3 objectAtIndex:check];
+ if (check4 == 6 || check4 == 7 || check4 == 8 || check4 == 15 || check4 == 16 || check4 == 17 || check4 == 24 || check4 == 25 || check4 == 26){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row4 objectAtIndex:check];
+ if (check4 == 27 || check4 == 28 || check4 == 29 || check4 == 36 || check4 == 37 || check4 == 38 || check4 == 45 || check4 == 46 || check4 == 47){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row5 objectAtIndex:check];
+ if (check4 == 30 || check4 == 31 || check4 == 32 || check4 == 39 || check4 == 40 || check4 == 41 || check4 == 48 || check4 == 49 || check4 == 50){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row6 objectAtIndex:check];
+ if (check4 == 33 || check4 == 34 || check4 == 35 || check4 == 42 || check4 == 43 || check4 == 44 || check4 == 51 || check4 == 52 || check4 == 53){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row7 objectAtIndex:check];
+ if (check4 == 54 || check4 == 55 || check4 == 56 || check4 == 63 || check4 == 64 || check4 == 65 || check4 == 72 || check4 == 73 || check4 == 74){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row8 objectAtIndex:check];
+ if (check4 == 57 || check4 == 58 || check4 == 59 || check4 == 66 || check4 == 67 || check4 == 68 || check4 == 75 || check4 == 76 || check4 == 77){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [row9 objectAtIndex:check];
+ if (check4 == 60 || check4 == 61 || check4 == 62 || check4 == 69 || check4 == 70 || check4 == 71 || check4 == 78 || check4 == 79 || check4 == 80){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ 
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column1 objectAtIndex:check];
+ if (check4 == 0 || check4 == 3 || check4 == 6 || check4 == 27 || check4 == 30 || check4 == 33 || check4 == 54 || check4 == 57 || check4 == 60){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column2 objectAtIndex:check];
+ if (check4 == 1 || check4 == 4 || check4 == 7 || check4 == 28 || check4 == 31 || check4 == 34 || check4 == 55 || check4 == 58 || check4 == 61){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column3 objectAtIndex:check];
+ if (check4 == 2 || check4 == 5 || check4 == 8 || check4 == 29 || check4 == 32 || check4 == 35 || check4 == 56 || check4 == 59 || check4 == 62){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column4 objectAtIndex:check];
+ if (check4 == 9 || check4 == 12 || check4 == 15 || check4 == 36 || check4 == 39 || check4 == 42 || check4 == 63 || check4 == 66 || check4 == 69){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column5 objectAtIndex:check];
+ if (check4 == 10 || check4 == 13 || check4 == 16 || check4 == 37 || check4 == 40 || check4 == 43 || check4 == 64 || check4 == 67 || check4 == 70){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column6 objectAtIndex:check];
+ if (check4 == 11 || check4 == 14 || check4 == 17 || check4 == 38 || check4 == 41 || check4 == 44 || check4 == 65 || check4 == 68 || check4 == 71){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column7 objectAtIndex:check];
+ if (check4 == 18 || check4 == 21 || check4 == 24 || check4 == 45 || check4 == 48 || check4 == 51 || check4 == 72 || check4 == 75 || check4 == 78){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column8 objectAtIndex:check];
+ if (check4 == 19 || check4 == 22 || check4 == 25 || check4 == 46 || check4 == 49 || check4 == 52 || check4 == 73 || check4 == 76 || check4 == 79){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ check = 0;
+ 
+ while (check <=8) {
+ checkB = [column9 objectAtIndex:check];
+ if (check4 == 20 || check4 == 23 || check4 == 26 || check4 == 47 || check4 == 50 || check4 == 53 || check4 == 74 || check4 == 77 || check4 == 80){
+ if (go != checkB && [go.titleLabel.text isEqualToString:checkB.titleLabel.text]) {
+ check2 = 1;
+ }
+ }
+ check++;
+ }
+ 
+ 
+ 
+ if (check2 == 0) {
+ check3++;
+ counter = 0;
+ check2 = 0;
+ }
+ 
+ if (counter == 80) {
+ [go setTitle:[NSString stringWithFormat:@"."] forState:UIControlStateNormal];
+ [go setTitleColor:[UIColor colorWithRed:0.0 green:0.5 blue:1.0 alpha:1.0] forState:UIControlStateNormal];
+ check3++;
+ counter = 0;
+ check2 = 0;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+
+*/
