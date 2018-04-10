@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE1F7B81F6DE8C400B8AC37 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE1F7B71F6DE8C400B8AC37 /* GoogleMobileAds.framework */; };
+		8A38FF94161E5D8F00951F57 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A38FF93161E5D8F00951F57 /* GameKit.framework */; };
+		8A793D9C161B417300D80BB4 /* speedsquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A793D9B161B417300D80BB4 /* speedsquareViewController.m */; };
+		8A793D9F161B44D900D80BB4 /* checkMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A793D9E161B44D900D80BB4 /* checkMark.png */; };
+		8A7AE023161E88D5002816A6 /* square114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7AE022161E88D5002816A6 /* square114.png */; };
+		8A7AE027161E891A002816A6 /* square57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A7AE026161E891A002816A6 /* square57.png */; };
+		8A827E1A161F918A00C9B3E4 /* square72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A827E19161F918A00C9B3E4 /* square72.png */; };
+		8A827E24161F969000C9B3E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A827E23161F969000C9B3E4 /* Default.png */; };
+		8AB07301161A8637007FB6B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07300161A8637007FB6B3 /* UIKit.framework */; };
+		8AB07303161A8637007FB6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07302161A8637007FB6B3 /* Foundation.framework */; };
+		8AB07305161A8637007FB6B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07304161A8637007FB6B3 /* CoreGraphics.framework */; };
+		8AB0730B161A8637007FB6B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB07309161A8637007FB6B3 /* InfoPlist.strings */; };
+		8AB0730D161A8637007FB6B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0730C161A8637007FB6B3 /* main.m */; };
+		8AB07311161A8637007FB6B3 /* speedsquareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB07310161A8637007FB6B3 /* speedsquareAppDelegate.m */; };
+		8AB07313161A8637007FB6B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB07312161A8637007FB6B3 /* Default.png */; };
+		8AB07315161A8637007FB6B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB07314161A8637007FB6B3 /* Default@2x.png */; };
+		8AB07317161A8637007FB6B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB07316161A8637007FB6B3 /* Default-568h@2x.png */; };
+		8AB0731A161A8637007FB6B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB07318161A8637007FB6B3 /* MainStoryboard.storyboard */; };
+		8AB07325161A8637007FB6B3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07324161A8637007FB6B3 /* SenTestingKit.framework */; };
+		8AB07326161A8637007FB6B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07300161A8637007FB6B3 /* UIKit.framework */; };
+		8AB07327161A8637007FB6B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB07302161A8637007FB6B3 /* Foundation.framework */; };
+		8AB0732F161A8637007FB6B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AB0732D161A8637007FB6B3 /* InfoPlist.strings */; };
+		8AB07332161A8637007FB6B3 /* speedsquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB07331161A8637007FB6B3 /* speedsquareTests.m */; };
+		8AB0733C161A8A9C007FB6B3 /* bigbyukn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB0733B161A8A9C007FB6B3 /* bigbyukn.png */; };
+		8ABA917E164359F5005D3BDB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA917D164359F5005D3BDB /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB07328161A8637007FB6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB072F3161A8637007FB6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB072FB161A8637007FB6B3;
+			remoteInfo = speedsquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FE1F7B71F6DE8C400B8AC37 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.23.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		8A38FF93161E5D8F00951F57 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8A793D9B161B417300D80BB4 /* speedsquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = speedsquareViewController.m; sourceTree = "<group>"; };
+		8A793D9E161B44D900D80BB4 /* checkMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkMark.png; path = "../Speed Square/Speed Square/pics/checkMark.png"; sourceTree = "<group>"; };
+		8A7AE022161E88D5002816A6 /* square114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square114.png; sourceTree = "<group>"; };
+		8A7AE026161E891A002816A6 /* square57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square57.png; sourceTree = "<group>"; };
+		8A827E19161F918A00C9B3E4 /* square72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square72.png; sourceTree = "<group>"; };
+		8A827E23161F969000C9B3E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../Speed Square/Speed Square/pics/Default.png"; sourceTree = "<group>"; };
+		8AB072FC161A8637007FB6B3 /* speedsquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = speedsquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB07300161A8637007FB6B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AB07302161A8637007FB6B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AB07304161A8637007FB6B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AB07308161A8637007FB6B3 /* speedsquare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "speedsquare-Info.plist"; sourceTree = "<group>"; };
+		8AB0730A161A8637007FB6B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AB0730C161A8637007FB6B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AB0730E161A8637007FB6B3 /* speedsquare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "speedsquare-Prefix.pch"; sourceTree = "<group>"; };
+		8AB0730F161A8637007FB6B3 /* speedsquareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speedsquareAppDelegate.h; sourceTree = "<group>"; };
+		8AB07310161A8637007FB6B3 /* speedsquareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = speedsquareAppDelegate.m; sourceTree = "<group>"; };
+		8AB07312161A8637007FB6B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8AB07314161A8637007FB6B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8AB07316161A8637007FB6B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8AB07319161A8637007FB6B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8AB0731B161A8637007FB6B3 /* speedsquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speedsquareViewController.h; sourceTree = "<group>"; };
+		8AB07323161A8637007FB6B3 /* speedsquareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = speedsquareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB07324161A8637007FB6B3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8AB0732C161A8637007FB6B3 /* speedsquareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "speedsquareTests-Info.plist"; sourceTree = "<group>"; };
+		8AB0732E161A8637007FB6B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AB07330161A8637007FB6B3 /* speedsquareTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = speedsquareTests.h; sourceTree = "<group>"; };
+		8AB07331161A8637007FB6B3 /* speedsquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = speedsquareTests.m; sourceTree = "<group>"; };
+		8AB0733B161A8A9C007FB6B3 /* bigbyukn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigbyukn.png; path = "../Speed Square/Speed Square/pics/bigbyukn.png"; sourceTree = "<group>"; };
+		8ABA917D164359F5005D3BDB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB072F9161A8637007FB6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE1F7B81F6DE8C400B8AC37 /* GoogleMobileAds.framework in Frameworks */,
+				8ABA917E164359F5005D3BDB /* iAd.framework in Frameworks */,
+				8AB07301161A8637007FB6B3 /* UIKit.framework in Frameworks */,
+				8AB07303161A8637007FB6B3 /* Foundation.framework in Frameworks */,
+				8AB07305161A8637007FB6B3 /* CoreGraphics.framework in Frameworks */,
+				8A38FF94161E5D8F00951F57 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB0731F161A8637007FB6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB07325161A8637007FB6B3 /* SenTestingKit.framework in Frameworks */,
+				8AB07326161A8637007FB6B3 /* UIKit.framework in Frameworks */,
+				8AB07327161A8637007FB6B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AB072F1161A8637007FB6B3 = {
+			isa = PBXGroup;
+			children = (
+				8A827E23161F969000C9B3E4 /* Default.png */,
+				8A827E19161F918A00C9B3E4 /* square72.png */,
+				8A7AE026161E891A002816A6 /* square57.png */,
+				8A7AE022161E88D5002816A6 /* square114.png */,
+				8A793D9E161B44D900D80BB4 /* checkMark.png */,
+				8AB0733B161A8A9C007FB6B3 /* bigbyukn.png */,
+				8AB07306161A8637007FB6B3 /* speedsquare */,
+				8AB0732A161A8637007FB6B3 /* speedsquareTests */,
+				8AB072FF161A8637007FB6B3 /* Frameworks */,
+				8AB072FD161A8637007FB6B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB072FD161A8637007FB6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB072FC161A8637007FB6B3 /* speedsquare.app */,
+				8AB07323161A8637007FB6B3 /* speedsquareTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB072FF161A8637007FB6B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA917D164359F5005D3BDB /* iAd.framework */,
+				2FE1F7B71F6DE8C400B8AC37 /* GoogleMobileAds.framework */,
+				8A38FF93161E5D8F00951F57 /* GameKit.framework */,
+				8AB07300161A8637007FB6B3 /* UIKit.framework */,
+				8AB07302161A8637007FB6B3 /* Foundation.framework */,
+				8AB07304161A8637007FB6B3 /* CoreGraphics.framework */,
+				8AB07324161A8637007FB6B3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AB07306161A8637007FB6B3 /* speedsquare */ = {
+			isa = PBXGroup;
+			children = (
+				8AB0730F161A8637007FB6B3 /* speedsquareAppDelegate.h */,
+				8AB07310161A8637007FB6B3 /* speedsquareAppDelegate.m */,
+				8AB07318161A8637007FB6B3 /* MainStoryboard.storyboard */,
+				8AB0731B161A8637007FB6B3 /* speedsquareViewController.h */,
+				8A793D9B161B417300D80BB4 /* speedsquareViewController.m */,
+				8AB07307161A8637007FB6B3 /* Supporting Files */,
+			);
+			path = speedsquare;
+			sourceTree = "<group>";
+		};
+		8AB07307161A8637007FB6B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB07308161A8637007FB6B3 /* speedsquare-Info.plist */,
+				8AB07309161A8637007FB6B3 /* InfoPlist.strings */,
+				8AB0730C161A8637007FB6B3 /* main.m */,
+				8AB0730E161A8637007FB6B3 /* speedsquare-Prefix.pch */,
+				8AB07312161A8637007FB6B3 /* Default.png */,
+				8AB07314161A8637007FB6B3 /* Default@2x.png */,
+				8AB07316161A8637007FB6B3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB0732A161A8637007FB6B3 /* speedsquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB07330161A8637007FB6B3 /* speedsquareTests.h */,
+				8AB07331161A8637007FB6B3 /* speedsquareTests.m */,
+				8AB0732B161A8637007FB6B3 /* Supporting Files */,
+			);
+			path = speedsquareTests;
+			sourceTree = "<group>";
+		};
+		8AB0732B161A8637007FB6B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB0732C161A8637007FB6B3 /* speedsquareTests-Info.plist */,
+				8AB0732D161A8637007FB6B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB072FB161A8637007FB6B3 /* speedsquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB07335161A8637007FB6B3 /* Build configuration list for PBXNativeTarget "speedsquare" */;
+			buildPhases = (
+				8AB072F8161A8637007FB6B3 /* Sources */,
+				8AB072F9161A8637007FB6B3 /* Frameworks */,
+				8AB072FA161A8637007FB6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = speedsquare;
+			productName = speedsquare;
+			productReference = 8AB072FC161A8637007FB6B3 /* speedsquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB07322161A8637007FB6B3 /* speedsquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB07338161A8637007FB6B3 /* Build configuration list for PBXNativeTarget "speedsquareTests" */;
+			buildPhases = (
+				8AB0731E161A8637007FB6B3 /* Sources */,
+				8AB0731F161A8637007FB6B3 /* Frameworks */,
+				8AB07320161A8637007FB6B3 /* Resources */,
+				8AB07321161A8637007FB6B3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB07329161A8637007FB6B3 /* PBXTargetDependency */,
+			);
+			name = speedsquareTests;
+			productName = speedsquareTests;
+			productReference = 8AB07323161A8637007FB6B3 /* speedsquareTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB072F3161A8637007FB6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = speedsquare;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Steven Grutman";
+				TargetAttributes = {
+					8AB072FB161A8637007FB6B3 = {
+						DevelopmentTeam = 78PV2V3EX4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8AB072F6161A8637007FB6B3 /* Build configuration list for PBXProject "speedsquare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AB072F1161A8637007FB6B3;
+			productRefGroup = 8AB072FD161A8637007FB6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB072FB161A8637007FB6B3 /* speedsquare */,
+				8AB07322161A8637007FB6B3 /* speedsquareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB072FA161A8637007FB6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB0730B161A8637007FB6B3 /* InfoPlist.strings in Resources */,
+				8AB07313161A8637007FB6B3 /* Default.png in Resources */,
+				8AB07315161A8637007FB6B3 /* Default@2x.png in Resources */,
+				8AB07317161A8637007FB6B3 /* Default-568h@2x.png in Resources */,
+				8AB0731A161A8637007FB6B3 /* MainStoryboard.storyboard in Resources */,
+				8AB0733C161A8A9C007FB6B3 /* bigbyukn.png in Resources */,
+				8A793D9F161B44D900D80BB4 /* checkMark.png in Resources */,
+				8A7AE023161E88D5002816A6 /* square114.png in Resources */,
+				8A7AE027161E891A002816A6 /* square57.png in Resources */,
+				8A827E1A161F918A00C9B3E4 /* square72.png in Resources */,
+				8A827E24161F969000C9B3E4 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB07320161A8637007FB6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB0732F161A8637007FB6B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AB07321161A8637007FB6B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB072F8161A8637007FB6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB0730D161A8637007FB6B3 /* main.m in Sources */,
+				8AB07311161A8637007FB6B3 /* speedsquareAppDelegate.m in Sources */,
+				8A793D9C161B417300D80BB4 /* speedsquareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB0731E161A8637007FB6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB07332161A8637007FB6B3 /* speedsquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB07329161A8637007FB6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB072FB161A8637007FB6B3 /* speedsquare */;
+			targetProxy = 8AB07328161A8637007FB6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB07309161A8637007FB6B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB0730A161A8637007FB6B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AB07318161A8637007FB6B3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB07319161A8637007FB6B3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8AB0732D161A8637007FB6B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB0732E161A8637007FB6B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A7AE018161E8197002816A6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Sharon Grutman";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "456910DB-0532-4D62-A0DA-CC6B5BA76DAA";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		8A7AE019161E8197002816A6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.23.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquare/speedsquare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		8A7AE01A161E8197002816A6 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/speedsquare.app/speedsquare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquareTests/speedsquareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		8AB07333161A8637007FB6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AB07334161A8637007FB6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB07336161A8637007FB6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.23.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquare/speedsquare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AB07337161A8637007FB6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.23.0",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquare/speedsquare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AB07339161A8637007FB6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/speedsquare.app/speedsquare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquareTests/speedsquareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8AB0733A161A8637007FB6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/speedsquare.app/speedsquare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "speedsquare/speedsquare-Prefix.pch";
+				INFOPLIST_FILE = "speedsquareTests/speedsquareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB072F6161A8637007FB6B3 /* Build configuration list for PBXProject "speedsquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB07333161A8637007FB6B3 /* Debug */,
+				8AB07334161A8637007FB6B3 /* Release */,
+				8A7AE018161E8197002816A6 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB07335161A8637007FB6B3 /* Build configuration list for PBXNativeTarget "speedsquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB07336161A8637007FB6B3 /* Debug */,
+				8AB07337161A8637007FB6B3 /* Release */,
+				8A7AE019161E8197002816A6 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB07338161A8637007FB6B3 /* Build configuration list for PBXNativeTarget "speedsquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB07339161A8637007FB6B3 /* Debug */,
+				8AB0733A161A8637007FB6B3 /* Release */,
+				8A7AE01A161E8197002816A6 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB072F3161A8637007FB6B3 /* Project object */;
+}
