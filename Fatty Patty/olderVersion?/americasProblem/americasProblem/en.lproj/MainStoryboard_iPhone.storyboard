@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--americasProblemViewController-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" userLabel="americasProblemViewController" customClass="americasProblemViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xoh-fL-3YU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="YMR-cL-Lug" userLabel="powerUps">
+                                <rect key="frame" x="0.0" y="-2" width="320" height="465"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sQ0-p8-RIO">
+                                        <rect key="frame" x="0.0" y="55" width="64" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Menu">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="menu" destination="4" eventType="touchUpInside" id="NJ6-iQ-F9q"/>
+                                            <action selector="menu" destination="2" eventType="touchUpInside" id="lLZ-Wg-vjd"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This power up slows down the spinach for 15 seconds           (250 Patties)" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r5I-Tm-ZJl">
+                                        <rect key="frame" x="10" y="79" width="171" height="111"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This power up slows down the spinach for 30 seconds           (450 Patties)" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o0c-g9-1ZZ">
+                                        <rect key="frame" x="10" y="179" width="171" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9mp-47-fD3">
+                                        <rect key="frame" x="182" y="93" width="126" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <color key="tintColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Small Slower" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addss" destination="4" eventType="touchUpInside" id="9Qk-J3-x2i"/>
+                                            <action selector="addss" destination="2" eventType="touchUpInside" id="XMS-8E-9VY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T1n-dZ-G6g">
+                                        <rect key="frame" x="182" y="184" width="126" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <color key="tintColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Big Slower" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addbs" destination="4" eventType="touchUpInside" id="LhG-ni-AKH"/>
+                                            <action selector="addbs" destination="2" eventType="touchUpInside" id="eIe-5a-qHa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PSJ-vu-luw">
+                                        <rect key="frame" x="182" y="278" width="126" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.5602409639" green="0.1204819277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="tintColor" red="0.5602409639" green="0.1204819277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Second Chance" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.5602409639" green="0.1204819277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addsc" destination="4" eventType="touchUpInside" id="2MH-Qc-PfK"/>
+                                            <action selector="addsc" destination="2" eventType="touchUpInside" id="VL4-pL-FIu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Lx-CT-0cr">
+                                        <rect key="frame" x="182" y="376" width="126" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.35752543009999999" blue="0.19119311829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="tintColor" red="1" green="0.35752543009999999" blue="0.19119311829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Invinsibility" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="0.35752543009999999" blue="0.19119311829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addi" destination="4" eventType="touchUpInside" id="PAE-tW-32x"/>
+                                            <action selector="addi" destination="2" eventType="touchUpInside" id="xTv-P2-LkZ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This power up gives you a second &quot;life&quot; if you mess up         (1000 Patties)" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="27v-BX-HEB">
+                                        <rect key="frame" x="10" y="270" width="171" height="98"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This power up makes you invinsible for 30 seconds                 (1000 Patties)" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qd8-pp-Mjr">
+                                        <rect key="frame" x="10" y="367" width="171" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Fc-s7-E9t">
+                                        <rect key="frame" x="286" y="74" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.1815753222" blue="0.13439268430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xpl-uW-Vhc">
+                                        <rect key="frame" x="286" y="167" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.1815753222" blue="0.13439268430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U1C-z4-jir">
+                                        <rect key="frame" x="286" y="258" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.1815753222" blue="0.13439268430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rKO-us-knf">
+                                        <rect key="frame" x="286" y="357" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.1815753222" blue="0.13439268430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vqi-9d-30t">
+                                        <rect key="frame" x="72" y="58" width="244" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16722519280000001" green="0.28244188889999999" blue="0.75384256110000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="3" userLabel="gameView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="flaming-grill-0509-lg.jpg" id="r97-uH-3ps">
+                                        <rect key="frame" x="0.0" y="51" width="320" height="435"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="Y4o-nN-2HR">
+                                        <rect key="frame" x="142" y="205" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="Nxx-db-lhC">
+                                        <rect key="frame" x="178" y="372" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="spinachReal2.png" id="4Ka-OQ-Pwm">
+                                        <rect key="frame" x="138" y="78" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="spinachReal2.png" id="miK-xy-3Mc">
+                                        <rect key="frame" x="138" y="78" width="44" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="eYO-Fn-EJt">
+                                        <rect key="frame" x="158" y="75" width="156" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="frU-uL-Yku">
+                                        <rect key="frame" x="20" y="55" width="294" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R6a-Mg-aRx">
+                                        <rect key="frame" x="286" y="102" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <color key="tintColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.93750403950000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addss1" destination="2" eventType="touchUpInside" id="KOC-kW-sJr"/>
+                                            <action selector="addss1" destination="4" eventType="touchUpInside" id="VCz-YS-SRV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7UP-xT-sJ2">
+                                        <rect key="frame" x="286" y="145" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <color key="tintColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addbs1" destination="4" eventType="touchUpInside" id="SbE-g2-2co"/>
+                                            <action selector="addbs1" destination="2" eventType="touchUpInside" id="t0A-FH-Tee"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hHr-Bt-k0P">
+                                        <rect key="frame" x="286" y="188" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.5602409639" green="0.1204819277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                        <color key="tintColor" red="0.5602409639" green="0.1204819277" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addsc1" destination="4" eventType="touchUpInside" id="4DJ-zO-Hny"/>
+                                            <action selector="addsc1" destination="2" eventType="touchUpInside" id="ehv-DT-WaN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Crn-8Z-Ky7">
+                                        <rect key="frame" x="287" y="233" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.35752543009999999" blue="0.19119311829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
+                                        <color key="tintColor" red="1" green="0.35752543009999999" blue="0.19119311829999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" backgroundImage="cheeseburger512inviso.png">
+                                            <color key="titleColor" red="0.076086956519999999" green="0.070634112360000001" blue="0.056813205620000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addi1" destination="4" eventType="touchUpInside" id="CpP-AC-iCQ"/>
+                                            <action selector="addi1" destination="2" eventType="touchUpInside" id="lC0-gF-Lzx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Rhb-4W-izm">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="hungryPlayerReal3.png" id="jNe-DT-Sfp">
+                                        <rect key="frame" x="143" y="352" width="35" height="70"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="0RO-j0-Zy5" userLabel="blueBackground">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="LdU-KV-y9i">
+                                        <rect key="frame" x="20" y="57" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="hungryPlayer.jpg" id="4uo-NC-TcD">
+                                        <rect key="frame" x="170" y="57" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Fatty Patty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="khw-Xo-72W">
+                                        <rect key="frame" x="-3" y="71" width="326" height="131"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K9g-iY-o3A">
+                                        <rect key="frame" x="10" y="351" width="302" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="tintColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="High Scores">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showLeader" destination="2" eventType="touchUpInside" id="EV7-61-MOL"/>
+                                            <action selector="showLeader" destination="4" eventType="touchUpInside" id="ce1-zT-rTe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CeX-w7-9Do">
+                                        <rect key="frame" x="63" y="222" width="196" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="tintColor" red="1" green="0.1815753222" blue="0.13439268430000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Play">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="start" destination="4" eventType="touchUpInside" id="GSf-h6-dRg"/>
+                                            <action selector="start" destination="2" eventType="touchUpInside" id="jvx-K5-qDm"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="0el-lt-JZZ">
+                                        <rect key="frame" x="68" y="227" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="h6g-tc-EN2">
+                                        <rect key="frame" x="15" y="356" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="iIA-au-Zd8">
+                                        <rect key="frame" x="265" y="356" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="dEx-uP-7mk">
+                                        <rect key="frame" x="214" y="227" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6i6-5R-0gD">
+                                        <rect key="frame" x="34" y="287" width="251" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="tintColor" red="0.27514621350000001" green="1" blue="0.1020693064" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Power Ups">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showPower" destination="4" eventType="touchUpInside" id="FV6-Fc-tov"/>
+                                            <action selector="showPower" destination="2" eventType="touchUpInside" id="SkU-jf-Xm6"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="g5V-Ny-GME">
+                                        <rect key="frame" x="39" y="294" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="cheeseburger512inviso.png" id="lbd-fX-clm">
+                                        <rect key="frame" x="240" y="294" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aj0-Lh-Imk">
+                                        <rect key="frame" x="203" y="415" width="105" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="twit.jpg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="twitter" destination="4" eventType="touchUpInside" id="ca7-51-CgD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gm1-NU-1bn">
+                                        <rect key="frame" x="14" y="409" width="101" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="like.jpg">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="like" destination="4" eventType="touchUpInside" id="Uf8-L9-cvA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.16722519280538806" green="0.28244188893660682" blue="0.75384256114130432" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" id="GLs-1G-Ovo">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="4hv-zR-bRh"/>
+                                </connections>
+                            </adBannerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bigBox" destination="Rhb-4W-izm" id="PPo-lW-lvt"/>
+                        <outlet property="blueBackground" destination="0RO-j0-Zy5" id="H4i-Kv-5N8"/>
+                        <outlet property="bsb" destination="7UP-xT-sJ2" id="hqm-uV-M0F"/>
+                        <outlet property="bsl" destination="xpl-uW-Vhc" id="7Eg-EX-oTl"/>
+                        <outlet property="burger" destination="Y4o-nN-2HR" id="38k-vk-VaV"/>
+                        <outlet property="burger1" destination="Nxx-db-lhC" id="CJf-nD-qNi"/>
+                        <outlet property="enemy" destination="4Ka-OQ-Pwm" id="3f8-Y1-QxG"/>
+                        <outlet property="enemy1" destination="miK-xy-3Mc" id="Ahg-ux-6Yk"/>
+                        <outlet property="fattyPatty" destination="khw-Xo-72W" id="tMD-i0-Z2u"/>
+                        <outlet property="gameView" destination="3" id="IPx-qx-5pj"/>
+                        <outlet property="gamecenter" destination="K9g-iY-o3A" id="HJs-zx-PSE"/>
+                        <outlet property="ib" destination="Crn-8Z-Ky7" id="XaV-oI-LAT"/>
+                        <outlet property="il" destination="rKO-us-knf" id="Flo-dc-RdS"/>
+                        <outlet property="menu" destination="sQ0-p8-RIO" id="LUs-ud-V7y"/>
+                        <outlet property="player" destination="jNe-DT-Sfp" id="xAd-ER-QSC"/>
+                        <outlet property="powerUps" destination="YMR-cL-Lug" id="agz-KH-Gbd"/>
+                        <outlet property="powerUpsButton" destination="6i6-5R-0gD" id="jpU-3O-dM8"/>
+                        <outlet property="pul" destination="vqi-9d-30t" id="pqM-Fg-iMe"/>
+                        <outlet property="scb" destination="hHr-Bt-k0P" id="Pkf-eu-tiu"/>
+                        <outlet property="scl" destination="U1C-z4-jir" id="iED-Zv-cPt"/>
+                        <outlet property="scoreLabel" destination="eYO-Fn-EJt" id="txj-4p-bT2"/>
+                        <outlet property="ssb" destination="R6a-Mg-aRx" id="f8N-Wy-56L"/>
+                        <outlet property="ssl" destination="4Fc-s7-E9t" id="DDQ-Ds-Sba"/>
+                        <outlet property="startbutton" destination="CeX-w7-9Do" id="mwV-fs-bl8"/>
+                        <outlet property="timeLabel" destination="frU-uL-Yku" id="sSE-kk-ZEQ"/>
+                        <outlet property="unused1" destination="0el-lt-JZZ" id="L3q-Mq-Ba6"/>
+                        <outlet property="unused2" destination="dEx-uP-7mk" id="MAV-B4-t8E"/>
+                        <outlet property="unused3" destination="h6g-tc-EN2" id="z6r-08-rQc"/>
+                        <outlet property="unused4" destination="iIA-au-Zd8" id="X5Z-J4-1gh"/>
+                        <outlet property="unused5" destination="LdU-KV-y9i" id="Kia-dR-hBI"/>
+                        <outlet property="unused6" destination="g5V-Ny-GME" id="H1r-Iv-cqe"/>
+                        <outlet property="unused7" destination="lbd-fX-clm" id="iNG-BZ-qBC"/>
+                        <outlet property="unusedHungryGuy" destination="4uo-NC-TcD" id="oGj-Ay-9QY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="-537"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cheeseburger512inviso.png" width="512" height="512"/>
+        <image name="flaming-grill-0509-lg.jpg" width="300" height="300"/>
+        <image name="hungryPlayer.jpg" width="317" height="359"/>
+        <image name="hungryPlayerReal3.png" width="165" height="345"/>
+        <image name="like.jpg" width="323" height="156"/>
+        <image name="spinachReal2.png" width="145" height="125"/>
+        <image name="twit.jpg" width="145" height="43"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
