@@ -1,0 +1,208 @@
+//
+//  jungleViewController.h
+//  cards
+//
+//  Created by Steven Grutman on 2/20/13.
+//  Copyright (c) 2013 Steven Grutman. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "QuartzCore/QuartzCore.h"
+
+@interface jungleViewController : UIViewController{
+    IBOutlet UIImageView *H2;
+    IBOutlet UIImageView *H3;
+    IBOutlet UIImageView *H4;
+    IBOutlet UIImageView *H5;
+    IBOutlet UIImageView *H6;
+    IBOutlet UIImageView *H7;
+    IBOutlet UIImageView *H8;
+    IBOutlet UIImageView *H9;
+    IBOutlet UIImageView *H10;
+    IBOutlet UIImageView *HJ;
+    IBOutlet UIImageView *HQ;
+    IBOutlet UIImageView *HK;
+    IBOutlet UIImageView *HA;
+    IBOutlet UIImageView *s2;
+    IBOutlet UIImageView *s3;
+    IBOutlet UIImageView *s4;
+    IBOutlet UIImageView *s5;
+    IBOutlet UIImageView *s6;
+    IBOutlet UIImageView *s7;
+    IBOutlet UIImageView *s8;
+    IBOutlet UIImageView *s9;
+    IBOutlet UIImageView *s10;
+    IBOutlet UIImageView *sJ;
+    IBOutlet UIImageView *sQ;
+    IBOutlet UIImageView *sK;
+    IBOutlet UIImageView *sA;
+    IBOutlet UIImageView *C2;
+    IBOutlet UIImageView *C3;
+    IBOutlet UIImageView *C4;
+    IBOutlet UIImageView *C5;
+    IBOutlet UIImageView *C6;
+    IBOutlet UIImageView *C7;
+    IBOutlet UIImageView *C8;
+    IBOutlet UIImageView *C9;
+    IBOutlet UIImageView *C10;
+    IBOutlet UIImageView *CJ;
+    IBOutlet UIImageView *CQ;
+    IBOutlet UIImageView *CK;
+    IBOutlet UIImageView *CA;
+    IBOutlet UIImageView *D2;
+    IBOutlet UIImageView *D3;
+    IBOutlet UIImageView *D4;
+    IBOutlet UIImageView *D5;
+    IBOutlet UIImageView *D6;
+    IBOutlet UIImageView *D7;
+    IBOutlet UIImageView *D8;
+    IBOutlet UIImageView *D9;
+    IBOutlet UIImageView *D10;
+    IBOutlet UIImageView *DJ;
+    IBOutlet UIImageView *DQ;
+    IBOutlet UIImageView *DK;
+    IBOutlet UIImageView *DA;
+    
+    IBOutlet UIView *uuuu;
+    
+    NSArray * cards;
+    int i;
+    NSMutableArray * ttttt;
+    UIImageView *idk;
+    int aa;
+    int bb;
+    int cc;
+    IBOutlet UIButton *cursor;
+    int k;
+    int a1;
+    int a2;
+    int a3;
+    int a4;
+    int a5;
+    int a6;
+    int a7;
+    int a8;
+    int a9;
+    int a10;
+    int a11;
+    int a12;
+    int a13;
+    int a14;
+    int a15;
+    int a16;
+    int a17;
+    int a18;
+    int a19;
+    int a20;
+    int a21;
+    int a22;
+    int a23;
+    int a24;
+    int a25;
+    int a26;
+    int a27;
+    int a28;
+    int a29;
+    int a30;
+    int a31;
+    int a32;
+    int a33;
+    int a34;
+    int a35;
+    int a36;
+    int a37;
+    int a38;
+    int a39;
+    int a40;
+    int a41;
+    int a42;
+    int a43;
+    int a44;
+    int a45;
+    int a46;
+    int a47;
+    int a48;
+    int a49;
+    int a50;
+    int a51;
+    int a52;
+    NSArray * ints;
+    NSNumber *pie;
+    int dd;
+    int ee;
+    int ff;
+    UIImageView *idk2;
+    int gg;
+    NSString *hh;
+    NSString *jj;
+    NSTimer * tt;
+    int yuyu;
+    int ijij;
+    NSTimer * stopWatch;
+    int timer;
+    CGPoint hi;
+    CGPoint his;
+    int bbbb;
+    IBOutlet UIImageView *st1;
+    IBOutlet UIImageView *st2;
+    IBOutlet UIImageView *st3;
+    IBOutlet UIImageView *st4;
+    IBOutlet UIImageView *st5;
+    IBOutlet UIImageView *st6;
+    IBOutlet UIImageView *st7;
+    IBOutlet UIImageView *st8;
+    IBOutlet UIImageView *st9;
+    IBOutlet UIImageView *st10;
+    IBOutlet UIImageView *st11;
+    IBOutlet UIImageView *st12;
+    IBOutlet UIImageView *st13;
+    IBOutlet UIImageView *st14;
+    IBOutlet UIImageView *st15;
+    IBOutlet UIImageView *st16;
+    IBOutlet UIImageView *st17;
+    IBOutlet UIImageView *st18;
+    IBOutlet UIImageView *st19;
+    IBOutlet UIImageView *st20;
+    IBOutlet UIImageView *st21;
+    IBOutlet UIImageView *st22;
+    IBOutlet UIImageView *st23;
+    IBOutlet UIImageView *st24;
+    IBOutlet UIImageView *st25;
+    IBOutlet UIImageView *st26;
+    IBOutlet UIImageView *st27;
+    IBOutlet UIImageView *st28;
+    IBOutlet UIImageView *st29;
+    IBOutlet UIImageView *st30;
+    IBOutlet UIImageView *st31;
+    IBOutlet UIImageView *st32;
+    IBOutlet UIImageView *st33;
+    IBOutlet UIImageView *st34;
+    IBOutlet UIImageView *st35;
+    IBOutlet UIImageView *st36;
+    IBOutlet UIImageView *st37;
+    IBOutlet UIImageView *st38;
+    IBOutlet UIImageView *st39;
+    IBOutlet UIImageView *st40;
+    IBOutlet UIImageView *st41;
+    IBOutlet UIImageView *st42;
+    IBOutlet UIImageView *st43;
+    IBOutlet UIImageView *st44;
+    IBOutlet UIImageView *st45;
+    IBOutlet UIImageView *st46;
+    IBOutlet UIImageView *st47;
+    IBOutlet UIImageView *st48;
+    IBOutlet UIImageView *st49;
+    IBOutlet UIImageView *st50;
+    IBOutlet UIImageView *st51;
+    IBOutlet UIImageView *st52;
+    CGPoint ppp;
+    CGPoint ooo;
+    IBOutlet UIImageView *swap1;
+    IBOutlet UIImageView *swap2;
+    
+}
+
+-(IBAction)ggg;
+-(IBAction)flipA;
+
+@end
